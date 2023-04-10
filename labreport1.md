@@ -25,3 +25,9 @@ Note that if you're using Windows, you will need to install git for Windows usin
 Run the following command in the terminal: ssh (username)@ieng6.ucsd.edu(replacing username with your specific username). Then enter your password.  If you are prompted with the question "Are you sure you want to continue connecting(yes/no/[fingerprint])?", type yes.
 
 ![Image](remotelogin.png)
+
+## Trying Some Commands
+
+After connecting to the server, you can try running the following commands in the terminal:
+
+* cd ~
