@@ -22,7 +22,7 @@ After you've ensured that your password has successfully been reset, you will pr
 
 Note that if you're using Windows, you will need to install git for Windows using the following [link](https://gitforwindows.org/).
 
-Run the following command in the terminal: `ssh <username>@ieng6.ucsd.edu`(replacing username with your specific username). Then enter your password.  If you are prompted with the question "Are you sure you want to continue connecting(yes/no/[fingerprint])?", type yes.
+Run the following command in the terminal: `ssh <username>@ieng6.ucsd.edu`(replacing username with your specific username). Then enter your password.  If you are prompted with the question `Are you sure you want to continue connecting(yes/no/[fingerprint])?`, type yes.
 
 ![Image](remotelogin.png)
 
