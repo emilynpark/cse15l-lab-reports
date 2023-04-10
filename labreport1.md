@@ -31,3 +31,10 @@ Run the following command in the terminal: ssh (username)@ieng6.ucsd.edu(replaci
 After connecting to the server, you can try running the following commands in the terminal:
 
 * cd ~
+* cd
+* ls -lat
+* ls -a
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
+* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+
