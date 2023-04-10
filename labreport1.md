@@ -16,5 +16,12 @@ on your computer. Locate the menu at the top and hover your mouse over the Termi
 ## Remotely Connecting
 
 Use the following link to look up your course-specific account for CSE 15L: https://sdacs.ucsd.edu/~icc/index.php
-Upon logging in with your TritonLink Username and PID, you should be presented with a page with the headline "Account Lookup Results."  Locate the section titled "Additional Accounts" and click on the button containing text beginning with > cse15lsp23.
+Upon logging in with your TritonLink Username and PID, you should be presented with a page with the headline "Account Lookup Results."  Locate the section titled "Additional Accounts" and click on the button containing text beginning with "cse15lsp23." Proceed to use the Global Password Change Tool(you will need your username beginning with "cse15lsp23" for this step). It may take several minutes for your password change to be completely processed.
+
+After you've ensured that your password has successfully been reset, you will proceed to remotely connect to the server.
+
+Note that if you're using Windows, you will need to install git for Windows using the following link: https://gitforwindows.org/
+
+Run the following command in the terminal: ssh <username>@ieng6.ucsd.edu(replacing username with your specific username).
+
 
