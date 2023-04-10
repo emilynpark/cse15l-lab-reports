@@ -38,3 +38,9 @@ After connecting to the server, you can try running the following commands in th
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
+![Image](commands.png)
+
+To log out of the remote server in your terminal, you can use:
+
+* `Ctrl-D`
+* `Run the command exit`
