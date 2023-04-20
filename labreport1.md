@@ -31,8 +31,11 @@ Run the following command in the terminal: `ssh <username>@ieng6.ucsd.edu`(repla
 After connecting to the server, you can try running the following commands in the terminal:
 
 * `cd ~`
+This command is intended to take you back to the home directory.
 * `cd`
+This command is intended to change the current working directory.
 * `ls -lat`
+This command is 
 * `ls -a`
 * `ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
