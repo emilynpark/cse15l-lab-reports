@@ -35,7 +35,7 @@ After connecting to the server, you can try running the following commands in th
 * `cd`
 <br>This command is intended to change the current working directory.
 * `ls -lat`
-This command is 
+<br>This command is 
 * `ls -a`
 * `ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
