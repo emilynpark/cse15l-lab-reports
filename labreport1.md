@@ -31,9 +31,9 @@ Run the following command in the terminal: `ssh <username>@ieng6.ucsd.edu`(repla
 After connecting to the server, you can try running the following commands in the terminal:
 
 * `cd ~`
-This command is intended to take you back to the home directory.
+<br>This command is intended to take you back to the home directory.
 * `cd`
-This command is intended to change the current working directory.
+<br>This command is intended to change the current working directory.
 * `ls -lat`
 This command is 
 * `ls -a`
