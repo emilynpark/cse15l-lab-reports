@@ -35,12 +35,15 @@ After connecting to the server, you can try running the following commands in th
 * `cd`
 <br>This command is intended to change the current working directory.
 * `ls -lat`
-<br>This command is 
+<br>This command is intended to display all files(both ones with permitted access and hidden ones), and sorts these files according to time.
 * `ls -a`
+<br>This command is intended to display hidden files.
 * `ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
-<br>This command is intended to list the files and folders 
+<br>This command is intended to list the files and folders in the directory of another group member's course-specific account for CSE 15L.
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+<br>This command is intended to copy 
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+<br>This command is intended to 
 
 ![Image](commands.png)
 
