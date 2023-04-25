@@ -29,7 +29,7 @@ public void testReverseInPlace1() {
   int[] input2 = {7, 9, 2};
   assertArrayEquals(new int[]{2, 9, 7}, ArrayExamples.reversed(input2));
 }
-
+```
 * An input that doesn't induce a failure:
 ```@Test
 public void testReverseInPlace() {
