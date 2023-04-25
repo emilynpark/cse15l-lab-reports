@@ -28,4 +28,5 @@ The bug from Lab 3 that I'm choosing to focus on is the implementations of the r
 public void testReverseInPlace1() {
   int[] input2 = {7, 9, 2};
   assertArrayEquals(new int[]{2, 9, 7}, ArrayExamples.reversed(input2));
-}```
+}
+
