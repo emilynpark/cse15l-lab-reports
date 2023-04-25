@@ -41,11 +41,13 @@ After connecting to the server, you can try running the following commands in th
 * `ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
 <br>This command is intended to list the files and folders in the directory of another group member's course-specific account for CSE 15L.
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-<br>This command is intended to copy 
+<br>This command is intended to copy the file `hello.txt` into the specified home directory.
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
-<br>This command is intended to 
+<br>This command is intended to read and output the contents of the file `hello.txt` contained in the cs15lsp23 folder.
 
 ![Image](commands.png)
+
+This xcreenshot shows the results of running the specified commands above.  
 
 To log out of the remote server in your terminal, you can use:
 
