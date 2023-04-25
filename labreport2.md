@@ -25,7 +25,7 @@ The bug from Lab 3 that I'm choosing to focus on is the implementations of the r
 * Failure-inducing input for the buggy program:
 
 ```@Test
-<br>public void testReverseInPlace1() {
-  <br>int[] input2 = {7, 9, 2};
-  <br>assertArrayEquals(new int[]{2, 9, 7}, ArrayExamples.reversed(input2));
-<br>}```
+public void testReverseInPlace1() {
+  int[] input2 = {7, 9, 2};
+  assertArrayEquals(new int[]{2, 9, 7}, ArrayExamples.reversed(input2));
+}```
