@@ -36,6 +36,7 @@ public void testReverseInPlace() {
   int[] input1 = { 0 };
   assertArrayEquals(new int[]{ 0 }, ArrayExamples.reversed(input1));
 }
+```
 
 * A screenshot of the symptom:
 
@@ -50,5 +51,6 @@ static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
   
 }
+```
 
 
