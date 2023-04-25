@@ -42,15 +42,32 @@ public void testReverseInPlace() {
 
 ![Image](lab3bugsymptom.png)
 
-* The bug(before):
-
-* The bug(after):
+* The bug(before the code change):
 
 ```
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
-  
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
+  }
+  return arr;
 }
 ```
+The bug present in the code above is caused by the fact that the line `arr[i] = newArray[arr.length - i - 1];` sets all elements of `arr` to be equal to 0 since all elements in newArray are equal to 0. This causes the original values contained in `arr` to be lost and the method therefore doesn't swap the values properly. The code returns an array with elements of 0.
 
+* Code change needed to fix the bug:
 
+```
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+  }
+  return newArray;
+}
+```
+The code above fixes the bug by replacing `arr[i]` with `newArray[i]` and `arr[arr.length - i - 1];` with `newArray[arr.length - i - 1];` and also by returning `newArray` instead of `arr`. This allows the array to be properly swapped using the original values contained in `arr` rather than the newly created array with values of 0.
+
+## Part 3
+
+Something I learned from lab in week 2 that I didn't know before is how to build and run a web server. I learned how to write a web server in VSCode that handles a path and a query, and how to use terminal commands to create and run the server on my local computer.
