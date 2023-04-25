@@ -30,3 +30,25 @@ public void testReverseInPlace1() {
   assertArrayEquals(new int[]{2, 9, 7}, ArrayExamples.reversed(input2));
 }
 
+* An input that doesn't induce a failure:
+```@Test
+public void testReverseInPlace() {
+  int[] input1 = { 0 };
+  assertArrayEquals(new int[]{ 0 }, ArrayExamples.reversed(input1));
+}
+
+* A screenshot of the symptom:
+
+![Image](lab3bugsymptom.png)
+
+* The bug(before):
+
+* The bug(after):
+
+```
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  
+}
+
+
