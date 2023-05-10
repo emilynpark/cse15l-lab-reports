@@ -43,5 +43,26 @@ Emilys-MacBook-Pro-3:docsearch emilypark$ grep -i "ACCORD" technical/plos/journa
 ```
 
 
-*`-A`
+* `-A`
+<br>`-A` is a command-line option of grep. Its purpose is to display the specified number of lines following the matched string/pattern.</br>
+<br>One example of using `-A`:</br>
+```
+Emilys-MacBook-Pro-3:docsearch emilypark$ grep -A 3 -i "conclusion" technical/biomed/rr167.txt
+        Conclusion
+        Our studies demonstrate a correlation between protegrin
+        sensitivity/resistance and protegrin binding in 
+        P. aeruginosa and 
+```
+This example shows an instance of displaying the 3 lines following the line with the string "conclusion"(regardless of case as the `-i` command is also used) in the file rr167.txt located in the `technical/biomed` directory. This is useful when a user wants to view a certain number of lines following a given word or phrase in a line.
+<br>Source for this usage of `-A`: https://www.geeksforgeeks.org/grep-command-in-unixlinux/</br>
 
+<br>A second example of using `-A`:</br>
+```
+Emilys-MacBook-Pro-3:docsearch emilypark$ grep -A 5 "Background" technical/biomed/1468-6708-3-7.txt
+        Background
+        With the publication of the Antihypertensive and
+        Lipid-Lowering Treatment to prevent Heart Attack Trial
+        (ALLHAT), the role of peripheral alpha-1 antagonists in the
+        treatment of hypertension has become controversial. The
+        doxazosin arm of ALLHAT was stopped early, due to a
+```
