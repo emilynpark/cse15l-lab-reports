@@ -27,5 +27,5 @@ if its uppercase or lowercase.</br>
 <br>One example of using `-i`:</br>
 ```
 Emilys-MacBook-Pro-3:docsearch emilypark$ grep -i "Manipulated" technical/911report/chapter-1.txt
-  On the morning of 9/11, there were only 37 passengers on United 93-33 in addition to the 4 hijackers. This was below the norm for Tuesday mornings during the summer of 2001. But there is no evidence that the hijackers manipulated passenger levels or purchased additional seats to facilitate their operation.
+  On the morning of 9/11, there were only 37 passengers on United 93-33 in addition to the 4 hijackers. This was<br>below the norm for Tuesday mornings during the summer of 2001. But there is no evidence that the hijackers manipulated passenger levels or purchased additional seats to facilitate their operation.
 ```
