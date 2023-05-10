@@ -35,3 +35,13 @@ Emilys-MacBook-Pro-3:docsearch emilypark$ grep -i "looms" technical/911report/ch
 This example shows an instance of displaying all lines within the file `chapter-7.txt` in the directory `technical/911report` that match
 the line `looms` regardless of case(therefore, all lines with words such as "LOOMS", "Looms", and "looMS") would be matched.
 <br>Source for this usage of `-i`: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/</br>
+
+<br>A second example of using `-i`:</br>
+```
+Emilys-MacBook-Pro-3:docsearch emilypark$ grep -i "accord" technical/plos/journal.pbio.0020010.txt
+        others to develop services that are more in accord with 2003 than 1993. One lesson Roger
+```
+
+
+*`-A`
+
