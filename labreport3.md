@@ -38,7 +38,7 @@ the line `looms` regardless of case(therefore, all lines with words such as "LOO
 
 <br>A second example of using `-i`:</br>
 ```
-Emilys-MacBook-Pro-3:docsearch emilypark$ grep -i "accord" technical/plos/journal.pbio.0020010.txt
+Emilys-MacBook-Pro-3:docsearch emilypark$ grep -i "ACCORD" technical/plos/journal.pbio.0020010.txt
         others to develop services that are more in accord with 2003 than 1993. One lesson Roger
 ```
 
