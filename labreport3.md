@@ -5,7 +5,7 @@ I am choosing to focus on the command `grep`.
 Four interesting command-line options of `grep`:
 
 * `-n`
-<br>`-n` is a command-line option of `grep`. Its purpose is to precede each line matching/containing a given pattern/string with a line number.</br>
+<br>`-n` is a command-line option of `grep`. Its purpose is to precede each line matching/containing a given pattern or string with a line number.</br>
 <br>One example of using `-n`:</br>
 ```
 Emilys-MacBook-Pro-3:docsearch emilypark$ grep -n "Boarding" technical/911report/chapter-1.txt
