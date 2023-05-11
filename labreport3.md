@@ -12,7 +12,7 @@ Emilys-MacBook-Pro-3:docsearch emilypark$ grep -n "Boarding" technical/911report
 12:Boarding the Flights
 ```
 
-<br>This example shows an instance of displaying the line number of all lines within the file `chapter-1.txt`(accessed within the `technical/911report` directory) matching/containing the string "Boarding." Its output is useful in showing that line 12, which contains the string "Boarding the Flights," is a match.</br>
+This example shows an instance of displaying the line number of all lines within the file `chapter-1.txt`(accessed within the `technical/911report` directory) matching/containing the string "Boarding." Its output is useful in showing that line 12, which contains the string "Boarding the Flights," is a match.
 <br>Source for this usage of `-n`: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/</br>
 
 <br>A second example of using `-n`:</br>
@@ -20,7 +20,7 @@ Emilys-MacBook-Pro-3:docsearch emilypark$ grep -n "Boarding" technical/911report
 Emilys-MacBook-Pro-3:docsearch emilypark$ grep -n "Abbreviations" technical/biomed/1468-6708-3-3.txt
 284:        Abbreviations
 ```
-<br>This example shows another instance of displaying the line number of all lines within the file `1468-6708-3-3.txt`(accessed within the directory of `technical/biomed`) matching/containing the string "Abbreviations." Its output is useful in showing the number of the line that contains the word "Abbreviations" is 284.</br>
+This example shows another instance of displaying the line number of all lines within the file `1468-6708-3-3.txt`(accessed within the directory of `technical/biomed`) matching/containing the string "Abbreviations." Its output is useful in showing the number of the line that contains the word "Abbreviations" is 284.
 <br>Source for this usage of `-n`: https://www.geeksforgeeks.org/grep-command-in-unixlinux/</br>
 
 * `-i`
