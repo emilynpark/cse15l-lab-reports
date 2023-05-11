@@ -52,7 +52,7 @@ Emilys-MacBook-Pro-3:docsearch emilypark$ grep -A 3 -i "conclusion" technical/bi
         sensitivity/resistance and protegrin binding in 
         P. aeruginosa and 
 ```
-This example shows an instance of displaying the string "conclusion"(regardless of case as the `-i` command is also used), alongside the 3 lines following it, in the file rr167.txt located in the `technical/biomed` directory. This is useful when a user wants to view a certain number of lines following a given word or phrase in a line.
+This example shows an instance of displaying the string "conclusion"(regardless of case as the `-i` command is also used), alongside the 3 lines following it, in the file `rr167.txt` located in the `technical/biomed` directory. This is useful when a user wants to view a certain number of lines following a given word or phrase in a line.
 <br>Source for this usage of `-A`: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/</br>
 
 <br>A second example of using `-A`:</br>
@@ -86,5 +86,5 @@ Emilys-MacBook-Pro-3:docsearch emilypark$ grep -B 1 "mammals" technical/biomed/1
         the inhibitory neurotransmitter γ-amino butyric acid (GABA)
         from glutamate. In mammals, the two isoforms of this
 ```
-This example shows an instance of displaying the line containing the string "mammals", alongside the 1 line immediately preceding it, in the file `1471-213X-1-1.txt` located in the directory `technical/biomed`.  This is useful when a user wants to view a certain number of lines that appear immediately before a given word or phrase in a line.
+This example shows an instance of displaying the line containing the string "mammals", alongside the 1 line immediately preceding it, in the file `1471-213X-1-1.txt` located in the directory `technical/biomed`. In contrast to the first example, the case matters as the `-i` command isn't being used here. This is useful when a user wants to view a certain number of lines that appear immediately before a given word or phrase in a line.
 <br>Source for this usage of `-B`: https://www.geeksforgeeks.org/grep-command-in-unixlinux/</br>
