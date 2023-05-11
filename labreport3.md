@@ -5,7 +5,7 @@ I am choosing to focus on the command `grep`.
 Four interesting command-line options of `grep`:
 
 * `-n`
-<br>`-n` is a command-line option of grep. Its purpose is to precede each line matching/containing a given pattern/string with a line number.</br>
+<br>`-n` is a command-line option of `grep`. Its purpose is to precede each line matching/containing a given pattern/string with a line number.</br>
 <br>One example of using `-n`:</br>
 ```
 Emilys-MacBook-Pro-3:docsearch emilypark$ grep -n "Boarding" technical/911report/chapter-1.txt
@@ -24,7 +24,7 @@ This example shows another instance of displaying the line number of all lines w
 <br>Source for this usage of `-n`: https://www.geeksforgeeks.org/grep-command-in-unixlinux/</br>
 
 * `-i`
-<br>`-i` is a command-line option of grep. Its purpose is to locate all lines within a file that match the given string/pattern, regardless of if its uppercase or lowercase.</br>
+<br>`-i` is a command-line option of `grep`. Its purpose is to locate all lines within a file that match the given string/pattern, regardless of if its uppercase or lowercase.</br>
 <br>One example of using `-i`:</br>
 ```
 Emilys-MacBook-Pro-3:docsearch emilypark$ grep -i "looms" technical/911report/chapter-7.txt
@@ -43,7 +43,7 @@ This example shows an instance of displaying all the lines within the file `jour
 <br>Source for this usage of `-i`: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/</br>
 
 * `-A`
-<br>`-A` is a command-line option of grep. Its purpose is to display the matched string/pattern, along with the specified number of lines following it.</br>
+<br>`-A` is a command-line option of `grep`. Its purpose is to display the matched string/pattern, along with the specified number of lines following it.</br>
 <br>One example of using `-A`:</br>
 ```
 Emilys-MacBook-Pro-3:docsearch emilypark$ grep -A 3 -i "conclusion" technical/biomed/rr167.txt
@@ -66,10 +66,10 @@ Emilys-MacBook-Pro-3:docsearch emilypark$ grep -A 5 "Background" technical/biome
         doxazosin arm of ALLHAT was stopped early, due to a
 ```
 This example shows an instance of displaying the line with the string "Background", alongside the 5 lines following it, in the file `1468-6708-3-7.txt` located in the directory `technical/biomed`. In contrast to the first example, the case matters as the `-i` command isn't being used here. This is useful when a user wants to view a certain number of lines following a given word or phrase in a line.
-<br>Source for this usage of `-A`: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+<br>Source for this usage of `-A`: https://www.geeksforgeeks.org/grep-command-in-unixlinux/</br>
 
 * `-B`
-<br>`-B` is a command-line option of grep. Its purpose is to display the matched string/pattern, along with the specified number of lines preceding it.</br>
+<br>`-B` is a command-line option of `grep`. Its purpose is to display the matched string/pattern, along with the specified number of lines preceding it.</br>
 <br>One example of using `-B`:</br>
 ```
 Emilys-MacBook-Pro-3:docsearch emilypark$ grep -B 2 -i "SPONSORED" technical/biomed/1468-6708-3-10.txt
@@ -77,10 +77,14 @@ Emilys-MacBook-Pro-3:docsearch emilypark$ grep -B 2 -i "SPONSORED" technical/bio
         Prevent Heart Attack Trial (ALLHAT) is a randomized,
         two-component clinical trial sponsored by the National
 ```
-This example shows an instance of displaying the 
+This example shows an instance of displaying the line containing the string "SPONSORED"(irrespective of case as the command `-i` is also included), alongside the 2 lines preceding it, in the file `1468-6708-3-10.txt` located in the directory `technical/biomed`.  This is useful when a user wants to view a certain number of lines that appear immediately before a given word or phrase in a line.
+<br>Source for this usage of `-B`: https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/</br>
+
 <br>A second example of using `-B`:</br>
 ```
 Emilys-MacBook-Pro-3:docsearch emilypark$ grep -B 1 "mammals" technical/biomed/1471-213X-1-1.txt
         the inhibitory neurotransmitter γ-amino butyric acid (GABA)
         from glutamate. In mammals, the two isoforms of this
 ```
+This example shows an instance of displaying the line containing the string "mammals", alongside the 1 line immediately preceding it, in the file `1471-213X-1-1.txt` located in the directory `technical/biomed`.  This is useful when a user wants to view a certain number of lines that appear immediately before a given word or phrase in a line.
+<br>Source for this usage of `-B`: https://www.geeksforgeeks.org/grep-command-in-unixlinux/</br>
