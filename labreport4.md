@@ -18,7 +18,7 @@
 <br><br>I was presented with the code above after running the command `vim ListExamples.java`. The screenshot and details below show the keys that I pressed to fix the error.</br></br>
 
 ![Image](Step7-3.png)
-<br><br>I first pressed the up arrow/`k` to reach the line containing the error.  I then pressed the right arrow/`l` until my cursor was over the `1` in `index1`, and I pressed `x` to delete the `1`. I proceeded to press `i` to enter the insert mode, and pressed `2` so that the line now contains `index2`. I pressed `<esc>` to exit the insert mode, and then I pressed `:wq` followed by `enter` to save my changes.</br></br>
+<br><br>I first pressed the up arrow/`k` to reach the line containing the error.  I then pressed the right arrow/`l` until my cursor was over the `1` in `index1`, and I pressed `x` to delete the `1`. I proceeded to press `i` to enter the insert mode, and pressed `2` so that the line now contains `index2`. I pressed `<esc>` to exit the insert mode, and then I pressed `:wq` followed by `<enter>` to save my changes.</br></br>
 
 ![Image](Step8.png)
 <br><br>I returned to the terminal and I ran the command `bash test.sh` to demonstrate that the error has been fixed and the tests now succeed.</br></br>
