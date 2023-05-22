@@ -8,9 +8,11 @@
 ![Image](Step5.png)
 <br><br>To get to this step, I typed the command `git clone https://github.com/ucsd-cse15l-s23/lab7` in the terminal. I pressed `<enter>` to run the command.</br></br>
 
+## Step 6
 ![Image](Step6.png)
 <br><br>To demonstrate that the tests contained in `ListExamples.java` fail, I typed the command `bash test.sh` in the terminal. I pressed `<enter>` to run the command.</br></br>
 
+## Step 7
 ![Image](Step7-1.png)
 <br><br>To edit the code file `ListExamples.java` to fix the error, I first ran the command `cd lab7` to change the working directory to `lab7`. I then typed in `vim ListExamples.java` to directly edit the file.</br></br>
 
@@ -20,9 +22,11 @@
 ![Image](Step7-3.png)
 <br><br>I first pressed the up arrow/`k` to reach the line containing the error.  I then pressed the right arrow/`l` until my cursor was over the `1` in `index1`, and I pressed `x` to delete the `1`. I proceeded to press `i` to enter the insert mode, and pressed `2` so that the line now contains `index2`. I pressed `<esc>` to exit the insert mode, and then I pressed `:wq` followed by `<enter>` to save my changes.</br></br>
 
+## Step 8
 ![Image](Step8.png)
 <br><br>I returned to the terminal and I ran the command `bash test.sh` to demonstrate that the error has been fixed and the tests now succeed.</br></br>
 
+## Step 9
 ![Image](Step9-1.png)
 <br><br>I ran the command `git add ListExamples.java` to stage the file in order to commit it to GitHub. To confirm that my changes have been appropriately saved, I ran the command `git status`. I then ran the command `git push https://github.com/emilynpark/lab7` to push the changes to my GitHub account.</br></br>
 
