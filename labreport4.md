@@ -2,7 +2,7 @@
 
 ## Step 4
 ![Image](Step4.png)
-<br>To get to this step, I started a new terminal and typed in the command `ssh cs15lsp23ks@ieng6.ucsd.edu` to login to my CSE 15L account. I pressed `<enter>` to run the command.</br>
+<br><br>To get to this step, I started a new terminal and typed in the command `ssh cs15lsp23ks@ieng6.ucsd.edu` to login to my CSE 15L account. I pressed `<enter>` to run the command.</br>
 
 ## Step 5
 ![Image](Step5.png)
