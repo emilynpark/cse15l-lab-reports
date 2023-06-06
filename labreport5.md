@@ -1,6 +1,7 @@
 # Lab Report 5
 
 ## Debugging Scenario
+<br>Screenshot of Student's Debugging Problem:</br>
 
 
 ## Response from TA:
