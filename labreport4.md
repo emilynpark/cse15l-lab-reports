@@ -11,7 +11,7 @@ To get to this step, I started a new terminal and typed in the command `ssh cs15
 To get to this step, I typed the command `git clone git@github.com:emilynpark/lab7.git` in the terminal. I pressed `<enter>` to run the command.
 
 ## Step 6
-![Image](Step6.png)
+![Image](Step6-1.png)
 
 To demonstrate that the tests contained in `ListExamples.java` fail, I typed the command `bash test.sh` in the terminal. I pressed `<enter>` to run the command.
 
