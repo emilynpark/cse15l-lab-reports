@@ -16,7 +16,8 @@ Screenshots of Student's Debugging Problem:
 ![Image](solution.png)
 
 ### Scenario Setup Information
-<li>What to edit to fix the bug: First, initialize a variable named `found` of type `boolean`, and set it to be false. Next, within the second for loop, change the existing `if` statement from `if(num != lowest)` to `if(num != lowest || found), and then create a second if statement as follows: `if(num == lowest && !found) {found == true;}. Lastly, modify the return statement to `return sum / (arr.length - 1)`.</li>
+
+<br>What to edit to fix the bug: First, initialize a variable named `found` of type `boolean`, and set it to be false. Next, within the second for loop, change the existing `if` statement from `if(num != lowest)` to `if(num != lowest || found), and then create a second if statement as follows: `if(num == lowest && !found) {found == true;}. Lastly, modify the return statement to `return sum / (arr.length - 1)`.</br>>
 
 ## Part 2
 Something I learned in lab during the second half of the quarter is how to use various Vim commands. Specifically, I learned to use `x` to delete a character, `i` to insert a character(and then `esc` to exit insert mode), and `:wq` to write and quit a file.
