@@ -16,7 +16,7 @@ Screenshots of Student's Debugging Problem:
 ![Image](solution.png)
 
 ### Scenario Setup Information
-<br>File and directory structure needed: https://github.com/ucsd-cse15l-w23/lab3
+<br>[Link](https://github.com/ucsd-cse15l-w23/lab3) to the file and directory structure needed
 <br>Contents of the file prior to fixing the bug:
 ![Image](incorrectcode.png)
 <br>Command lines I ran to trigger the bug: `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests`
