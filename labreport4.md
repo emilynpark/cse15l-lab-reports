@@ -8,7 +8,7 @@ To get to this step, I started a new terminal and typed in the command `ssh cs15
 ## Step 5
 ![Image](Step5.png)
 
-To get to this step, I typed the command `git clone git@github.com:emilynpark/lab3.git` in the terminal. I pressed `<enter>` to run the command.
+To get to this step, I typed the command `git clone git@github.com:emilynpark/lab7.git` in the terminal. I pressed `<enter>` to run the command.
 
 ## Step 6
 ![Image](Step6.png)
