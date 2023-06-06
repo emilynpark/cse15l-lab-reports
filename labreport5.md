@@ -18,7 +18,7 @@ Screenshots of Student's Debugging Problem:
 ### Scenario Setup Information
 <br>File and directory structure needed: https://github.com/ucsd-cse15l-w23/lab3</br>
 <br>Contents of the file prior to fixing the bug:</br>
-![Image](solution.png)
+![Image](incorrectcode.png)
 <br>Command lines I ran to trigger the bug: `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests`</br>
 <br>What to edit to fix the bug: First, initialize a variable named `found` of type `boolean`, and set it to be false. Next, within the second for loop, change the existing `if` statement from `if(num != lowest)` to `if(num != lowest || found)`, and then create a second if statement as follows: `if(num == lowest && !found) {found == true;}`. Lastly, modify the return statement to `return sum / (arr.length - 1)`.</br>
 
