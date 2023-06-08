@@ -36,4 +36,4 @@ I returned to the terminal and I ran the command `bash test.sh` to demonstrate t
 ## Step 9
 ![Image](Step9.png)
 
-I ran the command `git add ListExamples.java` to stage the file in order to commit it to GitHub. To confirm that my changes have been appropriately saved, I ran the command `git status`. I ran the command `git commit -m "Updated file"` to create a brief message stating that the file has been updated. Afterwards, I ran the command `git push https://github.com/emilynpark/lab7` to push the changes to my GitHub account.
+I ran the command `git add ListExamples.java` to stage the file in order to commit it to GitHub. To confirm that my changes have been appropriately saved, I ran the command `git status`. I ran the command `git commit -m "Updated file"` to create a brief message stating that the file has been updated. Afterwards, I ran the command `git push git@github.com:emilynpark/lab7.git main` to push the changes to my GitHub account.
