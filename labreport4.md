@@ -34,6 +34,6 @@ I first pressed the up arrow/`k` to reach the line containing the error.  I then
 I returned to the terminal and I ran the command `bash test.sh` to demonstrate that the error has been fixed and the tests now succeed.
 
 ## Step 9
-![Image](Step9-1.png)
+![Image](Step9.png)
 
-I ran the command `git add ListExamples.java` to stage the file in order to commit it to GitHub. To confirm that my changes have been appropriately saved, I ran the command `git status`. I then ran the command `git push https://github.com/emilynpark/lab7` to push the changes to my GitHub account. Afterwards, I ran the command `git commit -m "Updated file"` to create a brief message stating that the file has been updated.  
+I ran the command `git add ListExamples.java` to stage the file in order to commit it to GitHub. To confirm that my changes have been appropriately saved, I ran the command `git status`. I ran the command `git commit -m "Updated file"` to create a brief message stating that the file has been updated. Afterwards, I ran the command `git push https://github.com/emilynpark/lab7` to push the changes to my GitHub account.
